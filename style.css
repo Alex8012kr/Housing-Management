@@ -1,1 +1,69 @@
+/* Reset & Basis */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #2b2b2b;
+  line-height: 1.7;
+  background: #ffffff;
+}
 
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f2d3d;
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Sektionen */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 120px 24px;
+}
+
+/* Startbereich */
+#start {
+  text-align: center;
+  background: #f3f5f7;
+  padding-top: 160px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 16px;
+  color: #1f2d3d;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1f2d3d;
+}
+
+/* Listen */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #1f2d3d;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+}
